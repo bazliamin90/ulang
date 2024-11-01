@@ -1,0 +1,59 @@
+	body {
+      overflow-y: scroll;
+      background-color: #E6E6FA;
+      margin: 0;
+	  font-size: 16px;
+	  font-family: arial;
+	  color: #555;
+    }
+	main {
+		margin: 0px auto;
+		max-width: 50rem;
+		width: 95%;
+		margin-bottom: 200px;
+	}
+	
+	.list {
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+	}
+
+	.item a {
+		display: column;
+		margin: 0 20px;
+	}
+	
+	li {
+		padding: 5px 0;
+	}
+	
+    #searchBox {
+      display: block; /*Ensures the input takes up full available width*/
+      margin: 20px auto; /* Centers horizontally */
+      padding: 8px;
+      width: 100%;
+      max-width: 300px;
+      font-size: 12px;
+	  outline: none;
+    }
+	
+	.subtopic {
+      font-size: 18px;
+      color: #555;
+      padding: 15px;
+	  font-weight: bold;
+    }
+	
+	#uniqueItemsContainer {
+		margin-top: 20px;
+	}
+	
+    @media (max-width: 600px) {
+      body, a {
+        font-size: 12px;
+      }
+      .subtopic {
+        font-size: 14px;
+      }
+    }
