@@ -47,7 +47,7 @@ headerTemplate.innerHTML = `
 		padding: 5px 5px;
 		font-size: 12px;
 		text-align: center;
-		background-color: #ffd9d9;
+		background-color: white;
 		color: grey;
 		text-decoration: none;
 	}
