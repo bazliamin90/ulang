@@ -42,6 +42,23 @@ headerTemplate.innerHTML = `
 		border-right: 1px solid black;
 	}
 
+	.stt {
+		position: fixed;
+		bottom: 50px;
+		right: 10px;
+		z-index: 9;
+		padding: 5px 5px;
+		font-size: 12px;
+		text-align: center;
+		background-color: white;
+		color: grey;
+		text-decoration: none;
+	}
+
+	.stt:active {
+		color: white;
+		background-color: black;
+	}
 	
   </style>
 
@@ -61,6 +78,8 @@ headerTemplate.innerHTML = `
 		</select>
 	</div>
   </div>
+  
+  <a href='#' class="stt">↑</a>
 
 <!----------------------------------->
 `;
