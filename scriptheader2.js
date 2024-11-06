@@ -11,6 +11,11 @@ headerTemplate2.innerHTML = `
 	  font-weight: bold;
     }
 	
+	.header2 a {
+		text-decoration: none;
+		color: white;
+	}
+	
 	footer {
 		text-align: center;
 		width: 100%;
@@ -48,7 +53,7 @@ headerTemplate2.innerHTML = `
   </style>
 
   <div class="header2">
-    <a>Rekod mengulang</a>
+    <a href="index.html">Rekod mengulang</a>
   </div>
   
   <footer>
