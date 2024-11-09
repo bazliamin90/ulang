@@ -18,7 +18,9 @@ headerTemplate.innerHTML = `
 		text-align: center;
 		color: #555;
 		outline: none;
-		padding: 5px 10px;
+		padding-left: 0;
+		padding-top: 5px;
+		padding-bottom: 5px;
 		width: 70px;
 		-webkit-appearance: none; /* Chrome, Safari, and Opera */
 		-moz-appearance: none;    /* Firefox */
