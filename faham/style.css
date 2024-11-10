@@ -18,7 +18,7 @@ body {
 }
 
 main {
-	margin: 0px auto;
+	margin: 20px auto;
 	max-width: 50rem;
 	width: 95%;
 	margin-bottom: 200px;
@@ -33,7 +33,11 @@ main {
 	font-weight: bold;
 	display: block;
 	text-align: center;
-	margin: 40px 20px;
+	padding: 10px 20px 10px 20px;
+}
+
+.bg1 {
+	background-color: khaki;
 }
 
 .container-group {
