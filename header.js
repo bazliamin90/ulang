@@ -53,6 +53,7 @@ headerTemplate.innerHTML = `
 		font-size: 12px;
 		text-align: center;
 		background-color: white;
+		border: 1px solid black;
 		color: grey;
 		text-decoration: none;
 	}
@@ -60,6 +61,10 @@ headerTemplate.innerHTML = `
 	.stt:active {
 		color: white;
 		background-color: black;
+	}
+	
+	.stt:hover {
+		background-color: lightgrey; /* Darker shade on hover */
 	}
 	
   </style>

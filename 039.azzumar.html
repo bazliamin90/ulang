@@ -25,6 +25,8 @@
       </ol>
     </nav>
 	
+	<button id="nextButton" onclick="goToNextSection()">Next Section</button>
+	
 	<a id="460" class="name bg1 target">ms 460</a>
 	
 	<div class="container-group">
@@ -256,6 +258,41 @@
 		</div>
 	</div>
 </main>
+
+<script>
+  // Array of section IDs
+  const sections = ["460", "461", "462", "463"];
+  let lastPassedSectionIndex = 0; // Track the last scrolled-past section index
+
+  // Function to update the last passed section as the user scrolls
+  function updateLastPassedSection() {
+    for (let i = 0; i < sections.length; i++) {
+      const section = document.getElementById(sections[i]);
+      const rect = section.getBoundingClientRect();
+
+      // Update the last passed section if the top of the section is above the viewport
+      if (rect.top < window.innerHeight / 2) {
+        lastPassedSectionIndex = i;
+      }
+    }
+  }
+
+  // Event listener to track scrolling and update the last passed section
+  window.addEventListener('scroll', updateLastPassedSection);
+
+  // Function to go to the next section based on the last passed section
+  function goToNextSection() {
+    if (lastPassedSectionIndex < sections.length - 1) {
+      // Go to the next section if there is one
+      window.location.hash = `#${sections[lastPassedSectionIndex + 1]}`;
+      lastPassedSectionIndex++; // Update to the new section after navigation
+    } else {
+      // Loop back to the first section if on the last one
+      window.location.hash = `#${sections[0]}`;
+      lastPassedSectionIndex = 0;
+    }
+  }
+</script>
 
 </body>
 </html>

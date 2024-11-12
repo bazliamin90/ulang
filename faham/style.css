@@ -77,7 +77,7 @@ nav ol li a {
 }
 
 .container1 {
-	background-color: #d1e7dd; /* Light green */
+	background-color: palegreen; /* Light green */
 	text-align: left;
 }
 
@@ -92,6 +92,23 @@ ul {
 
 li {
 	padding-bottom: 10px;
+}
+
+#nextButton {
+    position: fixed; /* Keeps the button in a fixed position */
+    bottom: 50px;    /* Position it 20px from the bottom */
+    right: 35px;     /* Position it 20px from the right */
+    padding: 5px 5px;
+    background-color: white; /* Button color */
+    color: grey;    /* Text color */
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 12px;
+	font-family: courier;
+}
+  
+#nextButton:hover {
+    background-color: lightgrey; /* Darker shade on hover */
 }
 
 @media (max-width: 600px) {
