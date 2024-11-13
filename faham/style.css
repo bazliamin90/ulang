@@ -97,7 +97,7 @@ li {
 #nextButton {
     position: fixed; /* Keeps the button in a fixed position */
     bottom: 40px;    /* Position it 20px from the bottom */
-    right: 35px;     /* Position it 20px from the right */
+    right: 45px;     /* Position it 20px from the right */
     padding: 5px 5px;
     background-color: white; /* Button color */
     color: grey;    /* Text color */

@@ -111,7 +111,7 @@ headerTemplate.innerHTML = `
 	</div>
   </div>
   
-  <a href='#' class="stt">↑</a>
+  <a href='#' class="stt">Top</a>
 `;
 
 class Header extends HTMLElement {
