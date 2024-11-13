@@ -22,7 +22,6 @@ headerTemplate2.innerHTML = `
 		position: fixed;
 		bottom: 0;
 		background-color: white;
-		padding: 5px 0;  /* Adjust padding for height slightly more than the font size */
 		border-radius: 30px 30px 0 0;
 		border-top: 1px solid lightgrey;
 	}
@@ -36,7 +35,7 @@ headerTemplate2.innerHTML = `
 	
 	.social-icons {
 		display: inline-block;  /* Ensure the icons are in-line with the text */
-		padding: 3px 0;
+		padding: 3px 0 7px 0;
 	}
 
 	.social-icons a {

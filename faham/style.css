@@ -96,7 +96,7 @@ li {
 
 #nextButton {
     position: fixed; /* Keeps the button in a fixed position */
-    bottom: 50px;    /* Position it 20px from the bottom */
+    bottom: 40px;    /* Position it 20px from the bottom */
     right: 35px;     /* Position it 20px from the right */
     padding: 5px 5px;
     background-color: white; /* Button color */
@@ -104,12 +104,12 @@ li {
     border: 1px solid black;
     cursor: pointer;
     font-size: 12px;
-	font-family: courier;
 }
-  
-#nextButton:hover {
-    background-color: lightgrey; /* Darker shade on hover */
-}
+
+#nextButton:active {
+		color: white;
+		background-color: black;
+	}
 
 @media (max-width: 600px) {
 	.container-group {
